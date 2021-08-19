@@ -1,0 +1,62 @@
+body{
+    background: url(fundo1.jpg);
+    background-size: 112%;
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-position: center;
+    background-color: black;
+    height: 450px;
+    width: 90%;
+    margin:50px auto
+    
+}
+/* oi */
+.container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8em;
+}
+
+
+.telaJogo{
+    justify-content: center;
+    background: color #f7f7f7;
+    height: 300px;
+    width: 500px;
+    margin-top: 5em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
+
+.persona{
+    margin-left: 3em;
+    margin-bottom: 2em;
+    height: 300px;
+    width: 410px;
+}
+
+.botao{
+   
+    height: 20px;
+    border: solid;
+    border-radius:10px;
+    background-color: black;
+    color: blanchedalmond;
+    justify-self: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.botaodashboard{
+    display: flex;
+    justify-content: center;
+
+}
+.reservado p{
+    display: flex;
+    color: rgb(200, 200, 200);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 2px;
+}
+
