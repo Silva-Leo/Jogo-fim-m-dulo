@@ -37,10 +37,10 @@ function final3Fase1() {
         escolha14 = prompt(`Faça sua escolha\n 1)Dominar o castelo criando um exército de espíritos 'crash' para tirar toda a funcionalidade do castelo e suas defesas\n 2)Dominar o castelo e prender os humanos no calabouço`);
         if (escolha14 == '1') {
             alerts("Os crash´s fizeram seu trabalho, agora é só destruir as relíquias");
-            location = ('../personagem1-historia/fase2p1.html');
+            location = ('../personagem1-historia/fase2p3.html');
         } else {
             alerts('Desde o rei até o soldado mais fraco está preso, mas você percebe que eles não estão tão preocupados assim..');
-            location = ('../personagem1-historia/fase2p1.html');
+            location = ('../personagem1-historia/fase2p3.html');
         }
     }, 5000);
 }

@@ -38,10 +38,10 @@ function final2Fase1() {
         escolha8 = prompt(`Faça sua escolha\n 1)Ir para o reino Java e pregar sua peça\n 2)Pregar uma peça em alguem próximo a você nesse momento`);
         if (escolha8 == '1') {
             alerts("Aproveitando que você já está indo para o reino, você já tem a idéia de destruir a documentação milenar.");
-            location = ('../personagem1-historia/fase2p1.html');
+            location = ('../personagem1-historia/fase2p2.html');
         } else {
             alerts('Você vê um aldeão se escondendo atrás das vacas no pasto, ele percebeu sua presença e ficou com medo, você buga as vacas dele para ao inves de dar leite, elas deêm suco de goiaba, e após você decide ir para o castelo da documentação milenar');
-            location = ('../personagem1-historia/fase2p1.html');
+            location = ('../personagem1-historia/fase2p2.html');
         }
     }, 5000);
 }

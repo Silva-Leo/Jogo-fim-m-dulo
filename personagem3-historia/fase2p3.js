@@ -39,10 +39,10 @@ function final3Fase2() {
         }
         if (escolha16 == '1') {
             alerts("Aos gritos eles ouvem, e pedem a libertação do mago porque só ele usa esse encantamento");
-            location = ('../personagem1-historia/fase3p1.html');
+            location = ('../personagem1-historia/fase3p3.html');
         } else {
             alerts('Os crash´s quebram pois o encantamento tem algo que pode vencer o bug e tudo que é relacionado...');
-            location = ('../personagem1-historia/fase3p1.html');
+            location = ('../personagem1-historia/fase3p3.html');
         }
     }, 5000);
 }
