@@ -34,10 +34,10 @@ function personagem() {
         return location.href = "./personagem1-historia/fase1p1.html"
 
     } else if (escolha == 2) {
-        return location.href = './personagem2-historia/fase1p2.html'
+        return location.href = "./personagem2-historia/fase1p2.html"
 
     } else if (escolha == 3) {
-        return location.href = '../personagem3-historia/fase1p3.html'
+        return location.href = "./personagem3-historia/fase1p3.html"
 
     } else {
         alert("ESCOLHA@@@")
