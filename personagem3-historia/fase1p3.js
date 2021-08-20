@@ -5,7 +5,7 @@ function alerts(texto) {
 }
 
 mostra();
-fase1Escolha2();
+fase1Escolha3();
 
 function mostra() {
     tela.innerHTML = `<img class="persona" src="./bug3.png">`;
