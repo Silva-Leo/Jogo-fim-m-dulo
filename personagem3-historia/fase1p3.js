@@ -29,7 +29,7 @@ function fase1Escolha3() {
     }, 14000);
 
 }
-s
+
 function final3Fase1() {
     var escolha14 = "";
     tela.innerHTML = `Você tem o poder de bugar tudo, de mudar tudo em sua volta, não ta preocupado com a defesa do castelo, seu objetivo é destruir as relíquias, para toda a sabedoria restante viva em sua mente demoniaca, e com isso a documentação milenar só terá bugs mais bugs por toda a eternidade`
