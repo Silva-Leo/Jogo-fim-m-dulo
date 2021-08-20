@@ -33,7 +33,6 @@ function fase2escolha1() {
 
 function fase2escolha2() {
     tela.innerHTML = `Você não consegue se comunicar com eles...Por que será que você bugou até os seres humanos... vá atrás das documentações descobrir..`
-    bottominicio.style.display = 'none'
     var escolha4 = "";
     setTimeout(() => {
         escolha4 = prompt(`Faça sua escolha\n 1)Ir para o reino Java atrás da documentação lendária.\n 2)Tentar fazer mímica para se comunicar com eles.`)
