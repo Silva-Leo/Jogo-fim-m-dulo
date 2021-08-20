@@ -42,10 +42,10 @@ function fase2escolha2() {
         }
         if (escolha4 == '1') {
             alerts("Sem eles entenderem mesmo, você sai voando em toda velocidade em busca da verdade!");
-            location = ('../personagem1-historia/Fase3P1.html');
+            location = ('../personagem1-historia/fase3p1.html');
         } else {
             alerts('Jura mesmo que você acha que mímica foi uma boa escolha..? Vá logo atrás da verdade!');
-            location = ('../personagem1-historia/Fase3P1.html');
+            location = ('../personagem1-historia/fase3p1.html');
         }
     }, 5000);
 }
@@ -56,5 +56,5 @@ function gameOver1() {
     setTimeout(() => { location = ('../index.html'); }, 20000);
 }
 
- //tenho que fazer voltar para a tela inicial
+
 

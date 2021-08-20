@@ -38,10 +38,10 @@ function final1Fase1() {
         escolha2 = prompt(`Faça sua escolha\n 1) Falar com algum cidadão\n 2)Se esconder para não assustar ninguém`);
         if (escolha2 == '1') {
             alerts("O cidadão ao chegar perto de você bugou e se transformou em um pudim");
-            location = ('../personagem1-historia/Fase2P1.html');
+            location = ('../personagem1-historia/fase2p1.html');
         } if (escolha2 == '2') {
             alerts('Você é um ser do mal milenar e se escondeu??? As pessoas ficaram confusas..');
-            location = ('../personagem1-historia/Fase2P1.html');
+            location = ('../personagem1-historia/fase2p1.html');
         }
     }, 5000);
 }

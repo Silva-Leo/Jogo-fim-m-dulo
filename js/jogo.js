@@ -30,13 +30,13 @@ function personagem() {
     alert("Escolha seu personagem")
     var escolha = prompt(`1- ${personagem1} \n 2- ${personagem2 } \n 3- ${personagem3}`)
     if (escolha == 1) {
-        return location = ('../personagem1-historia/Fase1P1.html')   
+        return location = ('../personagem1-historia/fase1p1.html')   
 
     }else if (escolha == 2){
-        return location = ('../personagem2-historia/Fase1P2.html')
+        return location = ('../personagem2-historia/fase1p2.html')
        
     }else if(escolha == 3){
-        return location = ('../personagem3-historia/Fase1P3.html')
+        return location = ('../personagem3-historia/fase1p3.html')
     
     } else {
         alert("ESCOLHA@@@")

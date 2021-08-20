@@ -39,10 +39,10 @@ function final2Fase2() {
         }
         if (escolha10 == '1') {
             alerts("O mago ao dar de cara com o lobo se assustou e saiu correndo.. ele tem muito de lobos");
-            location = ('../personagem1-historia/Fase3P1.html');
+            location = ('../personagem1-historia/fase3p1.html');
         } else {
             alerts('O mago ao vestir foi congelado, o soldado vendo isso se assustou empurrou o mago que caiu no chão e quebrou-se em pedacinhos.');
-            location = ('../personagem1-historia/Fase3P1.html');
+            location = ('../personagem1-historia/fase3p1.html');
         }
     }, 5000);
 }
