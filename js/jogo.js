@@ -31,7 +31,7 @@ function personagem() {
     alert("Escolha seu personagem")
     var escolha = prompt(`1- ${personagem1} \n 2- ${personagem2} \n 3- ${personagem3}`)
     if (escolha == 1) {
-        location.replace ('../personagem1-historia/fase1p1.html')
+        return location.href ='../personagem1-historia/fase1p1.html'
 
     } else if (escolha == 2) {
         location = ('../personagem2-historia/fase1p2.html')
